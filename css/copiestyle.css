@@ -1,0 +1,163 @@
+body
+{
+    padding: 0%;
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    background-color: #F9E8C9;
+
+    
+}
+/***** page d'accueil****/
+.anim:hover
+{
+  
+    clip-path: circle(35%) ;
+    font-size: 1.4rem;
+    background-color: #F9E8C9;
+    color: #201658;
+     text-shadow: 1px 1px #1D24CA;
+    scale: 1;
+   transition: 0.5s;
+   
+   transform: scale(1);
+
+
+}
+
+
+ .anim
+{
+    
+    display: grid;
+    justify-items: center; /* pour aligner horizontalement */
+    align-items: center;
+    padding: 15% ;
+    color: #201658;
+    text-shadow: 1px 1px #F9E8C9;
+
+   
+}
+.menuhorizont
+{
+    display: flex;
+    list-style: none;
+
+}
+.menuhorizont li
+{
+    padding: 10px 15px;
+}
+.menuhorizont li a i
+{
+    color: #201658;
+    font-size: 1.4rem;
+}
+/***** pages******/
+.contenu
+{
+    display: none;
+}
+.top
+{
+    background-color: #F9E8C9;
+}
+.centre
+{
+    display: grid;
+    justify-items: center; /* pour aligner horizontalement */
+    align-items: center;
+}
+
+h2{
+    color: #201658;
+}
+h3{
+    color: #201658;
+}
+
+.box
+{
+   
+   text-overflow: ellipsis ;
+   width: auto;
+   
+    overflow: auto;
+    background-color: whitesmoke;
+}
+.bordure
+{
+    border: 4px black double;
+    border-radius: 10px;
+    box-shadow: inset -3px -3px 6px grey;
+    padding: 20px;
+    height: 400px;
+    margin: 2%;
+    margin-top:1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0;
+}
+.menuprincipale
+{
+    display: flex;
+    list-style: none;
+    font-size: large;
+  
+}
+
+
+.menuprincipale li
+{
+    padding: 20px 15px;
+}
+
+
+.divider
+{
+    border-bottom: 1px black solid ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dividercol
+{
+    border-right: 1px black;
+    padding: 5px
+}
+.liste
+{
+    list-style: none;
+    display: flex;
+}
+.liste li{
+    padding: 20px 15px;
+    font-weight: 600;
+    list-style: none
+}
+.liste li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.liste li a :hover{
+    text-decoration: none;
+    color: rgb(27, 27, 150);
+    
+}
+
+footer
+{
+    background-color: #201658;
+    height: 20%;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+

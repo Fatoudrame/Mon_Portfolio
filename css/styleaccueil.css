@@ -1,0 +1,11 @@
+body
+{
+    padding: 0%;
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    font-size: 1em;
+       background-image: url(technology.jpg);
+        background-size: cover;
+    
+}

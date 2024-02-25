@@ -1,0 +1,232 @@
+body
+{
+    padding: 0%;
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    background-image: url(technology.jpg);
+    background-size: cover;
+}
+
+
+
+#home
+{
+    background-color: rgb(229, 215, 194,0.2);
+    height: 100vh;
+    width: auto;
+    font-size: 1em;
+    
+    
+
+}
+.left{ 
+clip-path: circle(25%);
+    transition: 1s;
+    display: grid;
+    justify-items: center; /* pour aligner horizontalement */
+    align-items: center;
+}
+.top
+{
+   padding: 20%; 
+    
+}
+#home:hover
+{
+    clip-path: circle(40%);
+    font-size: 2rem;
+    background-color: rgb(229, 215, 194);
+   
+
+}
+.right
+{
+    background-color: rgb(229, 215, 194);
+    height: 100vh;
+    width: 8%;
+    border-radius: 40px;
+   
+
+}
+.menuaccueil
+{
+    display: grid;
+ justify-items: center; /* pour aligner horizontalement */
+ align-items: center; 
+
+
+}
+
+.menuaccueil ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+.menuaccueil ul li {
+    margin-bottom: 6px;
+    padding: 15px;
+    
+}
+ .menuaccueil ul li a i
+{
+    color:  rgb(11, 53, 220);
+    font-size: 30px;
+    
+
+}
+
+
+nav ul li a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    font-size: 35px; 
+    
+}
+
+ @media screen and (max-width:600px){
+
+    body
+    {
+        padding: 0%;
+        margin: 0;
+        height:auto;
+        width: auto;
+        background-image: url(technology.jpg);
+        background-size: cover;
+    }
+    
+    
+    #home
+{
+    background-color: rgb(229, 215, 194,0.2);
+    height: 100vh;
+    width: auto;
+    font-size: 1em;
+    
+    
+
+}
+.content {
+    display: none;
+}
+.left{ 
+clip-path: circle(25%);
+    transition: 1s;
+    display: grid;
+    justify-items: center; /* pour aligner horizontalement */
+    align-items: center;
+}
+
+#home:hover
+{
+    clip-path: circle(30%);
+    font-size: 1rem;
+    background-color: rgb(229, 215, 194);
+   
+
+}
+    
+    
+    .menuaccueil
+    {
+        display: grid;
+ justify-items: center; /* pour aligner horizontalement */
+ align-items: center; 
+
+    
+    }
+    
+    .menuaccueil ul{
+        list-style: none;
+        display: flex;
+       
+    
+    }
+    .menuaccueil ul li {
+        margin-bottom: 6px;
+        padding: 15px;
+        
+    }
+     .menuaccueil ul li a i
+    {
+        color:  rgb(2, 15, 66);
+        font-size: 20px;
+        
+    
+    }
+    
+    
+    nav ul li a:hover
+    {
+        text-decoration: underline;
+        cursor: pointer;
+        color: black;
+        font-size: 10px;
+}
+
+ }
+
+ /*****les autres pages******/
+ .leftotherpage
+ {
+    clip-path: circle(35% at 50% 50%);
+    font-size: 1rem;
+    height: 80%;
+    width: 92%;
+    background-color: rgb(229, 215, 194);
+    display: none;
+  
+ }
+ .centrer
+ {
+    display: grid;
+    justify-items: center; /* pour aligner horizontalement */
+    align-items: center;
+    word-wrap: break-word;
+ }
+ 
+ .right
+ {
+     background-color: rgb(229, 215, 194);
+     height: 100vh;
+     width: 8%;
+     border-radius: 40px;
+     }
+
+.menuvertical
+{
+    background-color:rgb(229, 215, 194) ;
+    justify-items:right; /* pour aligner horizontalement */
+    align-items: center;
+}
+.menuvertical ul{
+    list-style: none;
+   
+   
+
+}
+.menuvertical ul li {
+    margin-bottom: 6px;
+    padding: 15px;
+    
+}
+.menuvertical ul li a i
+{
+    color:  rgb(11, 53, 220);
+    font-size: 20px;
+    
+
+}
+
+
+nav ul li a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    font-size: 10px;
+}
