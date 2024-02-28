@@ -1,163 +1,185 @@
-body
-{
+body {
     padding: 0%;
     margin: 0;
     height: 100vh;
     width: auto;
     background-color: #F9E8C9;
-
-    
 }
-/***** page d'accueil****/
-.anim:hover
-{
-  
-    clip-path: circle(35%) ;
+
+/***** page d'accueil ****/
+h1 {
+    font-size: clamp(15px, 1rem, 1.4rem);
+}
+
+.anim:hover {
+    clip-path: circle(35%);
     font-size: 1.4rem;
     background-color: #F9E8C9;
     color: #201658;
-     text-shadow: 1px 1px #1D24CA;
+    text-shadow: 1px 1px #1D24CA;
     scale: 1;
-   transition: 0.5s;
-   
-   transform: scale(1);
-
-
+    transition: 0.5s;
+    transform: scale(1);
 }
 
-
- .anim
-{
-    
+.anim {
     display: grid;
     justify-items: center; /* pour aligner horizontalement */
     align-items: center;
-    padding: 15% ;
+    padding: 15%;
     color: #201658;
     text-shadow: 1px 1px #F9E8C9;
-
-   
 }
-.menuhorizont
-{
+
+.menuhorizont {
     display: flex;
     list-style: none;
-
 }
-.menuhorizont li
-{
+
+.menuhorizont li {
     padding: 10px 15px;
 }
-.menuhorizont li a i
-{
+
+.menuhorizont li a i {
     color: #201658;
     font-size: 1.4rem;
 }
-/***** pages******/
-.contenu
-{
+
+/***** pages *****/
+.contenu {
     display: none;
 }
-.top
-{
+
+.top {
     background-color: #F9E8C9;
 }
-.centre
-{
+
+.centre {
     display: grid;
     justify-items: center; /* pour aligner horizontalement */
     align-items: center;
 }
 
-h2{
-    color: #201658;
-}
-h3{
+h2 {
     color: #201658;
 }
 
-.box
-{
-   
-   text-overflow: ellipsis ;
-   width: auto;
-   
+h3 {
+    color: #201658;
+}
+
+.box {
+    text-overflow: ellipsis;
+    width: auto;
     overflow: auto;
     background-color: whitesmoke;
 }
-.bordure
-{
+
+.bordure {
     border: 4px black double;
     border-radius: 10px;
     box-shadow: inset -3px -3px 6px grey;
     padding: 20px;
     height: 400px;
     margin: 2%;
-    margin-top:1%;
+    margin-top: 1%;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 0;
 }
-.menuprincipale
-{
+
+.menuprincipale {
     display: flex;
     list-style: none;
     font-size: large;
-  
 }
 
-
-.menuprincipale li
-{
+.menuprincipale li {
     padding: 20px 15px;
 }
 
-
-.divider
-{
-    border-bottom: 1px black solid ;
+.divider {
+    border-bottom: 1px black solid;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.dividercol
-{
+.dividercol {
     border-right: 1px black;
-    padding: 5px
+    padding: 5px;
 }
-.liste
-{
+
+.liste {
     list-style: none;
     display: flex;
 }
-.liste li{
+
+.liste li {
     padding: 20px 15px;
     font-weight: 600;
-    list-style: none
+    list-style: none;
 }
-.liste li a{
+
+.liste li a {
     text-decoration: none;
     color: black;
-    
 }
-.liste li a :hover{
+
+.liste li a:hover {
     text-decoration: none;
     color: rgb(27, 27, 150);
-    
 }
 
-footer
-{
+footer {
     background-color: #201658;
-    height: 20%;
+    height: 14%;
     margin-top: 2rem;
+    color: aliceblue;
 }
 
+/* Media Queries pour tablettes et smartphones */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.2rem; /* Taille de police adaptée pour les appareils mobiles */
+    }
 
+    .anim {
+        padding: 35%; /* Ajustement du padding pour les appareils mobiles */
+    }
 
+    .anim:hover {
+        clip-path: circle(40%);
+        font-size: clamp(0.5rem, 1rem, 1.4rem);
+        background-color: #F9E8C9;
+        color: #201658;
+        text-shadow: 1px 1px #1D24CA;
+        scale: 1;
+        transition: 0.5s;
+        transform: scale(1);
+    }
 
+    .menuhorizont li {
+        padding: 8px 12px; /* Ajustement du padding pour les appareils mobiles */
+    }
 
+    .bordure {
+        height: auto; /* Hauteur auto pour s'adapter au contenu sur les appareils mobiles */
+        margin: 5%; /* Marge augmentée pour les appareils mobiles */
+    }
+}
 
+/* Media Queries pour smartphones uniquement */
+@media only screen and (max-width: 480px) {
+    .anim {
+        padding: 20%; /* Ajustement du padding pour les smartphones */
+    }
+    .anim:hover {
+        clip-path: circle(30%);}
+    .menuhorizont li {
+        padding: 5px 10px; /* Ajustement du padding pour les smartphones */
+    }
 
-
-
+    .bordure {
+        margin: 3%; /* Marge réduite pour les smartphones */
+    }
+}
